@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Mon Site Web</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-left">
+      <h1><span class="blue">MON</span> Site Web</h1>
+    </div>
+    <nav class="header-right">
+      <ul>
+        <li><a href="#accueil">ACCUEIL</a></li>
+        <li><a href="#a-propos">A PROPOS</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SECTION 1 AVEC IMAGE DE FOND -->
+  <section class="hero" id="accueil">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Mon Premier Site Web</h2>
+      <p>Bienvenue sur mon tout premier site web. Découvrez mes compétences en HTML5, CSS3 et JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- SECTION 2 : ICONES ET DESCRIPTIONS -->
+  <section class="features" id="services">
+    <div class="flip-box">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="photos/html.jfif" alt="HTML">
+        </div>
+        <div class="flip-back">
+          <p>HTML5 est le langage de base pour structurer une page web.</p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="flip-box"> <!-- image HTML -->
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="photos/css3.jfif">
+        </div>
+        <div class="flip-back">
+          <p>CSS3 permet de styliser l’apparence des pages web.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flip-box"> <!-- image HTML -->
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="photos/js.jfif">
+        </div>
+        <div class="flip-back">
+          <p>JavaScript rend les pages interactives et dynamiques.</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- INSCRIPTION -->
+  <section class="newsletter" id="contact">
+    <h3>Inscrivez-vous à ma newsletter</h3>
+    <form>
+      <input type="email" placeholder="Entrer Email..." required>
+      <button type="submit">M'inscrire</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Code with ❤️ – Copyright © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
